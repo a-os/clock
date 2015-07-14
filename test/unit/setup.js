@@ -17,19 +17,19 @@ requireApp('clock/js/alameda.js', () => {
       }
     },
     shim: {
-      'shared/js/template': {
+      'shared/template': {/template': {
         exports: 'Template'
       },
-      'shared/js/gesture_detector': {
+      'shared/gesture_detector': {/gesture_detector': {
         exports: 'GestureDetector'
       },
-      'shared/js/accessibility_helper': {
+      'shared/accessibility_helper': {/accessibility_helper': {
         exports: 'AccessibilityHelper'
       },
-      'shared/js/async_storage': {
+      'shared/async_storage': {/async_storage': {
         exports: 'asyncStorage'
       },
-      'shared/js/l10n_date': ['shared/js/l10n']
+      'shared/l10n_date': ['shared/js/l10n']/l10n_date': ['shared/js/l10n']
     }
   });
 });

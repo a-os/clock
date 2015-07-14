@@ -3,7 +3,7 @@
 // configuration for Alameda). Declaring the dependencies in this way ensures
 // that this module exports the "l10n" module's global variable only after both
 // shared libraries have been loaded in the correct order.
-define(['shared/js/l10n_date'], function() {
+define(['shared/l10n_date'], function() {/l10n_date'], function() {
   'use strict';
   return navigator.mozL10n;
 });
