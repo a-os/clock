@@ -1,0 +1,32 @@
+{
+  "name": "clock",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alivedise/clock",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "shared",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "config": "git@github.com:alivedise/config.git#~0.0.1",
+    "buttons": "git@github.com:alivedise/buttons.git#~0.0.1",
+    "accessibility_helper": "git@github.com:alivedise/accessibility_helper.git",
+    "async_storage": "git@github.com:alivedise/async_storage.git",
+    "gaia-header": "git@github.com:alivedise/gaia-header.git#~0.0.1",
+    "date_time_helper": "git@github.com:alivedise/date_time_helper.git",
+    "gaia-theme": "git@github.com:alivedise/gaia-theme.git#~0.0.1",
+    "gaia-icons": "git@github.com:alivedise/gaia-icons.git#~0.0.1",
+    "l10n": "git@github.com:alivedise/l10n.git#~0.0.1",
+    "input_areas": "git@github.com:alivedise/input_areas.git#~0.0.1",
+    "gesture_detector": "git@github.com:alivedise/gesture_detector.git#~0.0.1",
+    "l10n_date": "git@github.com:alivedise/l10n_date.git#~0.0.1",
+    "status": "git@github.com:alivedise/status.git#~0.0.1",
+    "template": "git@github.com:alivedise/template.git#~0.0.1",
+    "tabs": "git@github.com:alivedise/tabs.git#~0.0.1",
+    "switches": "git@github.com:alivedise/switches.git#~0.0.1"
+  }
+}
