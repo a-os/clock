@@ -10,18 +10,18 @@ requirejs.config({
     shared: '../shared'
   },
   shim: {
-    'shared/template': {/template': {
+    'shared/js/template': {
       exports: 'Template'
     },
-    'shared/gesture_detector': {/gesture_detector': {
+    'shared/js/gesture_detector': {
       exports: 'GestureDetector'
     },
-    'shared/async_storage': {/async_storage': {
+    'shared/js/async_storage': {
       exports: 'asyncStorage'
     },
-    'shared/accessibility_helper': {/accessibility_helper': {
+    'shared/js/accessibility_helper': {
       exports: 'AccessibilityHelper'
     },
-    'shared/l10n_date': ['shared/js/l10n']/l10n_date': ['shared/js/l10n']
+    'shared/js/l10n_date': ['shared/js/l10n']
   }
 });

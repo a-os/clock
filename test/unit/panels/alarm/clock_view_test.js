@@ -12,7 +12,7 @@ suite('ClockView', function() {
     require([
       'panels/alarm/main',
       'panels/alarm/clock_view',
-      'shared/async_storage'/async_storage'
+      'shared/js/async_storage'
     ], function(
       AlarmPanel,
       clockView,

@@ -23,7 +23,7 @@ suite('Spinner', function() {
 
     require([
         'picker/spinner',
-        'shared/gesture_detector'/gesture_detector'
+        'shared/js/gesture_detector'
       ], function(spinner, GD) {
         Spinner = spinner;
         GestureDetector = GD;
