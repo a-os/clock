@@ -1,7 +1,7 @@
 define(function(require) {
 'use strict';
 
-var asyncStorage = require('shared/js/async_storage');
+var asyncStorage = require('shared/async_storage/async_storage');
 var Utils = require('utils');
 var SETTINGS_CLOCKMODE = 'settings_clockoptions_mode';
 var mozL10n = require('l10n');

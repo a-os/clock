@@ -2,7 +2,7 @@ define(function(require) {
   'use strict';
 
   var Template = require('template');
-  var GestureDetector = require('shared/js/gesture_detector');
+  var GestureDetector = require('shared/gesture_detector/gesture_detector');
   var spinnerHtml = require('text!picker/spinner.html');
 
   // units covered per millisecond threshold to kick off inertia
